@@ -1,0 +1,4 @@
+<launch>
+  <include file="$(find osrf_turtlebot_demos)/launch/bringup.launch"/>
+  <include file="$(find turtlebot_bringup)/launch/3dsensor.launch"/>
+</launch>
